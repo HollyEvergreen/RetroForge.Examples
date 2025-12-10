@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "GlBQEGwEyWM=",
+  "success": true,
+  "projectFilePath": "D:\\RetroForge\\RetroForge.Examples\\Default-Plugins-Game.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cam33\\.nuget\\packages\\aspose.3d\\23.9.0\\aspose.3d.23.9.0.nupkg.sha512",
+    "C:\\Users\\cam33\\.nuget\\packages\\naudio\\2.2.1\\naudio.2.2.1.nupkg.sha512",
+    "C:\\Users\\cam33\\.nuget\\packages\\naudio.asio\\2.2.1\\naudio.asio.2.2.1.nupkg.sha512",
+    "C:\\Users\\cam33\\.nuget\\packages\\naudio.core\\2.2.1\\naudio.core.2.2.1.nupkg.sha512",
+    "C:\\Users\\cam33\\.nuget\\packages\\naudio.midi\\2.2.1\\naudio.midi.2.2.1.nupkg.sha512",
+    "C:\\Users\\cam33\\.nuget\\packages\\naudio.wasapi\\2.2.1\\naudio.wasapi.2.2.1.nupkg.sha512",
+    "C:\\Users\\cam33\\.nuget\\packages\\naudio.winmm\\2.2.1\\naudio.winmm.2.2.1.nupkg.sha512",
+    "C:\\Users\\cam33\\.nuget\\packages\\opentk\\5.0.0-pre.15\\opentk.5.0.0-pre.15.nupkg.sha512",
+    "C:\\Users\\cam33\\.nuget\\packages\\opentk.audio\\5.0.0-pre.15\\opentk.audio.5.0.0-pre.15.nupkg.sha512",
+    "C:\\Users\\cam33\\.nuget\\packages\\opentk.compute\\5.0.0-pre.15\\opentk.compute.5.0.0-pre.15.nupkg.sha512",
+    "C:\\Users\\cam33\\.nuget\\packages\\opentk.core\\5.0.0-pre.15\\opentk.core.5.0.0-pre.15.nupkg.sha512",
+    "C:\\Users\\cam33\\.nuget\\packages\\opentk.graphics\\5.0.0-pre.15\\opentk.graphics.5.0.0-pre.15.nupkg.sha512",
+    "C:\\Users\\cam33\\.nuget\\packages\\opentk.input\\5.0.0-pre.15\\opentk.input.5.0.0-pre.15.nupkg.sha512",
+    "C:\\Users\\cam33\\.nuget\\packages\\opentk.mathematics\\5.0.0-pre.15\\opentk.mathematics.5.0.0-pre.15.nupkg.sha512",
+    "C:\\Users\\cam33\\.nuget\\packages\\opentk.platform\\5.0.0-pre.15\\opentk.platform.5.0.0-pre.15.nupkg.sha512",
+    "C:\\Users\\cam33\\.nuget\\packages\\opentk.redist.glfw\\3.4.0.44\\opentk.redist.glfw.3.4.0.44.nupkg.sha512",
+    "C:\\Users\\cam33\\.nuget\\packages\\opentk.windowing.common\\5.0.0-pre.15\\opentk.windowing.common.5.0.0-pre.15.nupkg.sha512",
+    "C:\\Users\\cam33\\.nuget\\packages\\opentk.windowing.desktop\\5.0.0-pre.15\\opentk.windowing.desktop.5.0.0-pre.15.nupkg.sha512",
+    "C:\\Users\\cam33\\.nuget\\packages\\opentk.windowing.graphicslibraryframework\\5.0.0-pre.15\\opentk.windowing.graphicslibraryframework.5.0.0-pre.15.nupkg.sha512",
+    "C:\\Users\\cam33\\.nuget\\packages\\shaderc.net\\0.1.0\\shaderc.net.0.1.0.nupkg.sha512",
+    "C:\\Users\\cam33\\.nuget\\packages\\sixlabors.imagesharp\\3.1.12\\sixlabors.imagesharp.3.1.12.nupkg.sha512"
+  ],
+  "logs": []
+}
