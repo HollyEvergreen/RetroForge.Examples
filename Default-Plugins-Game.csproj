@@ -8,6 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove=".gitignore" />
+    <None Remove="copydlls.ps1" />
+    <None Remove="deploy.ps1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\RetroForge.NET\RetroForge.NET.csproj" />
   </ItemGroup>
 
