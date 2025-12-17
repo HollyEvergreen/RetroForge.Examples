@@ -4,21 +4,26 @@ using RetroForge.NET;
 using RetroForge.NET.Assets.Asset;
 using RetroForge.NET.Geometry;
 using RetroForge.NET.Graphics;
+using System.Runtime.InteropServices;
 
 public class UITest : IRetroForgePlugin
 {
     private int i = 0;
     private ShaderProgram BaseShader;
     private VAO vao;
+    private Texture tex;
 
     public override void Update(FrameEventArgs frame_args)
     {
         Logger.Log($"{this} {i++} : {frame_args.Time}", '\r');
     }
+    public bool x = true;
     public override void Render(FrameEventArgs frame_args) {
         GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
         BaseShader.Use();
+        tex.Bind();
         vao.Draw();
+        tex.Unbind();
         BaseShader.End();
         if (Window is null)
             Logger.Error("Window is null");
@@ -49,9 +54,13 @@ public class UITest : IRetroForgePlugin
             var mesh = vao.GetMesh(0);
             vertexBuf.AddVerts(mesh.GetBlock(0).vertices);
             vertexBuf.AddFaces(mesh.GetBlock(0).faces);
+            vertexBuf.AddTexCoords(mesh.GetBlock(0).texCoords);
             vertexBuf.Upload();
         });
-        vao.SetAttribPointer<float>(0, 3);
+        tex = new(Engine.AppData("images", "BaseTex.png"), true);
+        vao.SetAttribPointer<float>(0, 3, 2);
+        vao.SetAttribPointer<float>(1, 2, 3, 3);
+
         Logger.Log($"{this} loaded");
     }
 }
